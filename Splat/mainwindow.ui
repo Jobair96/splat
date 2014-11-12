@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>530</width>
-    <height>362</height>
+    <width>523</width>
+    <height>364</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Splat</string>
   </property>
   <property name="styleSheet">
    <string notr="true">#topFrame, #bottomFrame, QLabel {
@@ -272,7 +272,7 @@ QLabel {
       <widget class="QRadioButton" name="slowRadioButton">
        <property name="geometry">
         <rect>
-         <x>0</x>
+         <x>10</x>
          <y>250</y>
          <width>94</width>
          <height>31</height>
@@ -298,7 +298,7 @@ QLabel {
       <widget class="QRadioButton" name="fastRadioButton">
        <property name="geometry">
         <rect>
-         <x>200</x>
+         <x>190</x>
          <y>250</y>
          <width>94</width>
          <height>31</height>
@@ -515,7 +515,7 @@ QLabel {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>530</width>
+     <width>523</width>
      <height>25</height>
     </rect>
    </property>

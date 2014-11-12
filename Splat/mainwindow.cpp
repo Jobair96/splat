@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "/home/jobair/Downloads/splat/loadRom.h"
+#include "../loadRom.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -8,6 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    // To set the hero image.
     QPixmap pix("SplatImage.png");
     ui->imageLabel->setPixmap(pix);
 

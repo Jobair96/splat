@@ -15,14 +15,14 @@ QMAKE_CXXFLAGS += -std=c++11
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    ../../../Downloads/splat/opcodeProcessing.cpp \
-    ../../../Downloads/splat/stateData.cpp
+    ../opcodeProcessing.cpp \
+    ../stateData.cpp
 
 HEADERS  += mainwindow.h \
-    ../../../Downloads/splat/opcodeProcessing.h \
-    ../../../Downloads/splat/stateData.h \
-    ../../../Downloads/splat/loadRom.h
+    ../loadRom.h \
+    ../opcodeProcessing.h \
+    ../stateData.h
 
 FORMS    += mainwindow.ui
 
-LIBS += -lX11
+LIBS += -lX11 -lGL

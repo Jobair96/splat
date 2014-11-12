@@ -80,16 +80,9 @@ void runRom(string filename, double frequency)
    }
 }
 
-int main(int argc, char **argv)
+void loadRom(string filename, int frequency)
 {
-   vector<string> args(argv, argv + argc);
-
-   string filename = (args.size() > 1) ? args[1] : "../c8games/PONG";
-   int frequency = stoi(args.size() > 2 ? args[2] : "300");
-
 	runRom(filename, frequency);
-
-   return 0;
 }
 
 void fillBytes(unsigned char *start, initializer_list<unsigned char> bytes)
